@@ -20,7 +20,7 @@ public class BaseClass {
     	  driver = new ChromeDriver();
     	  driver.manage().timeouts().implicitlyWait(3, TimeUnit.MINUTES);
 
-		driver.get("https://engg.ggsf.edu.in/index.php");
+		driver.get("https://engg.ggsf.edu.in/index.php");//url
 		
 	}
 	@AfterMethod
