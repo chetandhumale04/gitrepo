@@ -16,7 +16,7 @@ public class BaseClass {
 	@BeforeMethod
 	public void setUp()
 	{
-		 WebDriverManager.chromedriver().setup();
+		 WebDriverManager.chromedriver().setup(); //webdriver
     	  driver = new ChromeDriver();
     	  driver.manage().timeouts().implicitlyWait(3, TimeUnit.MINUTES);
 
